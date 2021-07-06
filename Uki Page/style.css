@@ -1,0 +1,133 @@
+body{
+    padding: 20px;
+    margin: 8Px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.navbar{
+    width: auto;
+    margin: auto;
+    padding: 1px 0;
+    display: contents;
+    align-items: center;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    width: 240px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.content {
+    background-color: skyblue;
+    width: 400px;
+    height: 250px;
+    border-radius: 5%;
+    padding: 25px;
+    margin: 20px;
+  }
+h1{
+    font-weight: 900;
+    font-size:x-large;
+}  
+  .right {
+    float: right;
+    width: 400px;
+    padding: 10px;
+    height: 200px;
+    background-color: lightgrey;
+    border-radius: 5%;
+    margin-bottom: 70px;
+
+  }
+  .left {
+    float: left;
+    width: 400px;
+    height: 200px;
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 5%;
+    margin-bottom: 70px;
+  }
+
+  .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: skyblue;
+   color: black;
+   text-align: center;
+}
+
+/*---------------------------------------------------------*/
+/*This is for time table*/
+
+.homeBut {
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    left: 75%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+th{
+    align-content: center;
+    background-color:blue;
+    height: 70px;
+}
+table, th, td {
+  border: 1px solid black;
+}
+
+#evening{
+    background-color: blueviolet;
+}
+#row1{
+    background-color: cornflowerblue;
+}
+#yoga{
+    background-color: cyan;
+}
+#yellow{
+    background-color:yellow;
+}
+#english{
+    background-color: tomato;
+}
+#break{
+    background-color: teal;
+    text-align: center;
+}
+#last{
+    background-color: sandybrown;
+}
+#redL{
+    background-color: red;
+}
+/*-------------------------------------------------------------------*/
+
+fieldset{
+    width: 400px;
+    margin:auto;
+    background-color: skyblue;
+  }
+form{
+    text-align: center 
+}
