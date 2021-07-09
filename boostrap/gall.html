@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Bootstrap Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <script>
+                window.setInterval('refresh()', 10000); 	// Call a function every 10000 milliseconds (OR 10 seconds).
+
+                // Refresh or reload page.
+                function refresh() {
+                    window .location.reload();
+                }
+            </script>
+            <!-- Bootstrap link-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- Js link-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" integrity="sha512-nNlU0WK2QfKsuEmdcTwkeh+lhGs6uyOxuUs+n+0oXSYDok5qy0EI0lt01ZynHq6+p/tbgpZ7P+yUb+r71wqdXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js" integrity="sha512-j7/1CJweOskkQiS5RD9W8zhEG9D9vpgByNGxPIqkO5KrXrwyDAroM9aQ9w8J7oRqwxGyz429hPVk/zR6IOMtSA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- my css file link-->
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body onload = "JavaScript:AutoRefresh(10000);">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">UKI photography</a>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gall.html">Gallery</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+<!--Body-->
+        <div class="container-fluid">
+            <div class="row mt-4">
+                <div class="item col-sm-6 col-md-4 mb-3">
+                    <a href="img1.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="img1.jpg" width="100%" height="100%"  class="img-rounded"">
+                    </a>
+                </div>
+                <div class="item col-sm-6 col-md-4 mb-3">
+                    <a href="img2.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="img2.jpg" width="100%" height="100%">
+                    </a>
+                </div>                
+                <div class="item col-sm-6 col-md-4 mb-3">
+                    <a href="img3.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="img3.jpg" width="100%" height="100%">
+                    </a>
+                </div>
+
+                <div class="item col-sm-6 col-md-4 mb-3">
+                    <a href="img4.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="img4.jpg" width="100%" height="100%">
+                    </a>
+                </div>
+                <div class="item col-sm-6 col-md-4 mb-3">
+                    <a href="img5.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="img5.jpg" width="100%" height="100%">
+                    </a>
+                </div>                
+                <div class="item col-sm-6 col-md-4 mb-3">
+                    <a href="img6.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="img6.jpg" width="100%" height="100%">
+                    </a>
+                </div>
+
+                <div class="item col-sm-6 col-md-4 mb-3">
+                    <a href="img7.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="img7.jpg" width="100%" height="100%">
+                    </a>
+                </div>
+                <div class="item col-sm-6 col-md-4 mb-3">
+                    <a href="img8.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="img8.jpg" width="100%" height="100%">
+                    </a>
+                </div>                
+                <div class="item col-sm-6 col-md-4 mb-3">
+                    <a href="img9.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="img9.jpg" width="100%" height="100%">
+                    </a>
+                </div>
+
+                <div class="item col-sm-6 col-md-4 mb-3">
+                    <a href="img10.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="img10.jpg" width="100%" height="100%">
+                    </a>
+                </div>
+                <div class="item col-sm-6 col-md-4 mb-3">
+                    <a href="img11.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="img11.jpg" width="100%" height="100%">
+                    </a>
+                </div>                
+                <div class="item col-sm-6 col-md-4 mb-3">
+                    <a href="img12.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="img12.jpg" width="100%" height="100%">
+                    </a>
+                </div>                
+            </div>
+
+            
+    <footer class="page-footer font-small mdb-color lighten-3 pt-4">
+            <div class="footer-copyright text-center py-3">© 2021 Copyright:
+                <a href="https://mdbootstrap.com/"> CollectionTharsika.com</a>
+            </div>
+            </footer>
+        </div>     
+    </body>
+</html>
